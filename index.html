@@ -16,7 +16,7 @@
         <img style="display: none;" src="img/nebula.gif" alt="">
     </div>
 
-    <header class="header">
+    <header id="top" class="header">
         <div class="header__logo-box">
             <img src="img/logo-white.png" alt="Graeme" class="header__logo">
         </div>
@@ -220,8 +220,8 @@
 
     <footer class="footer">
         <div class="footer__logo-box">
-            <a href="#top">
-                <img src="img/logo-white.png" alt="Logo" class="footer__logo smooth-goto">
+            <a href="#top" class="goto-top">
+                <img src="img/logo-white.png" alt="Logo" class="footer__logo">
             </a>
         </div>
         <div class="row">
@@ -318,6 +318,12 @@
     $('.smooth-goto').on('click', function () {
             $('html, body').animate({
                 scrollTop: $(this.hash).offset().top + 50
+            }, 1000);
+        });
+
+    $('.goto-top').on('click', function () {
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top
             }, 1000);
         });
 
