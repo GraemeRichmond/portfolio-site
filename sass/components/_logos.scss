@@ -1,0 +1,65 @@
+.logos {
+  position: relative;
+  &__logo {
+    width: 35%;
+    -webkit-filter: drop-shadow(1px 1px 2px #222);
+    filter: drop-shadow(1px 1px 2px #222);
+    border-radius: 2px;
+    z-index: 10;
+    transition: all 0.2s;
+    position: absolute;
+
+    @include respond(tab-port) {
+      float: left;
+      position: relative;
+      width: 24%;
+    }
+
+    &--p1 {
+      left: 0;
+      top: 0;
+
+      @include respond(tab-port) {
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &--p2 {
+      left: 25%;
+      top: 0;
+
+      @include respond(tab-port) {
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &--p3 {
+      left: 50%;
+      // top: 50%;
+
+      @include respond(tab-port) {
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &--p4 {
+      left: 75%;
+      // top: 50%;
+
+      @include respond(tab-port) {
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &:hover {
+      transform: scale(1.1) translateY(0.2rem);
+      -webkit-filter: drop-shadow(1.5px 1.5px 4px #222);
+      filter: drop-shadow(1.5px 1.5px 4px #222);
+      z-index: 20;
+    }
+  }
+}
