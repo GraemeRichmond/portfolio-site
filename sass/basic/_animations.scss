@@ -1,0 +1,131 @@
+@keyframes leftIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-5rem);
+  }
+  80% {
+    transform: translateX(0.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes rightIn {
+  0% {
+    opacity: 0;
+    transform: translateX(5rem);
+  }
+  80% {
+    transform: translateX(-0.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes bottomIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  80% {
+    transform: translateY(0.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.floating {
+  animation-name: Floating;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-name: Floating1;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-name: Floating2;
+  -moz-animation-duration: 2.5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes Floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 5px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+@keyframes Floating1 {
+  from {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 5px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+@-webkit-keyframes Floating1 {
+  from {
+    -webkit-transform: translate(0, 0px);
+  }
+  50% {
+    -webkit-transform: translate(0, 5px);
+  }
+  to {
+    -webkit-transform: translate(0, -0px);
+  }
+}
+
+@keyframes Floating2 {
+  from {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 5px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+@-moz-keyframes Floating2 {
+  from {
+    -moz-transform: translate(0, 0px);
+  }
+  50% {
+    -moz-transform: translate(0, 5px);
+  }
+  to {
+    -moz-transform: translate(0, -0px);
+  }
+}
+
+.spin {
+  animation: Spin infinite 7s linear;
+}
+
+@keyframes Spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,42 @@
+.section-about {
+  background-color: $color-grey-light;
+  padding: 20rem 0;
+  margin-top: -25vh;
+  margin-bottom: 10vh;
+
+  @include respond(tab-port) {
+    padding: 25rem 4rem;
+    margin-bottom: 2vh;
+  }
+}
+
+.section-skills {
+  padding: 15rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-gradient-secondary, 0.75),
+      rgba($color-gradient-primary, 0.75)
+    ),
+    url(../img/nebula.jpg);
+  background-size: cover;
+  margin-top: -20rem;
+  transform: skewY(-5deg);
+
+  & > * {
+    transform: skewY(5deg);
+  }
+
+  @include respond(tab-port) {
+    padding: 10rem 0;
+  }
+}
+
+.section-tours {
+  margin-top: -20rem;
+  background-color: $color-grey-light;
+  padding-top: 25rem;
+
+  @include respond(tab-port) {
+    padding: 25rem 0 10rem 0;
+  }
+}
