@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+package.json
+**/.vscode
+pip.js
+img/chess.gif
+nebula.gif
+notris.gif
