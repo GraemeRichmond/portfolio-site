@@ -1,7 +1,7 @@
 $(".smooth-goto").on("click", function () {
   $("html, body").animate(
     {
-      scrollTop: $(this.hash).offset().top + 50,
+      scrollTop: $(this.hash).offset().top + 250,
     },
     1000
   );
@@ -10,7 +10,7 @@ $(".smooth-goto").on("click", function () {
 $(".goto-top").on("click", function () {
   $("html, body").animate(
     {
-      scrollTop: $(this.hash).offset().top,
+      scrollTop: $(this.hash).offset().top - 30,
     },
     1000
   );
