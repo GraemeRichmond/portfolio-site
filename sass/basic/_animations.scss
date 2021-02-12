@@ -117,15 +117,29 @@
   }
 }
 
-.spin {
-  animation: Spin infinite 7s linear;
+// .spin {
+//   animation: Spin infinite 7s linear;
+// }
+
+// @keyframes Spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+
+.spin90 {
+  animation: Spin90 infinite 3.5s steps(4, end);
 }
 
-@keyframes Spin {
-  from {
+@keyframes Spin90 {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+
+  100% {
     transform: rotate(360deg);
   }
 }
