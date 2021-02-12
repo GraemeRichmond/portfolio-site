@@ -132,4 +132,33 @@
     );
     color: white;
   }
+  &__header-4 {
+    background-image: linear-gradient(
+      to right bottom,
+      $color-card-4-primary,
+      $color-card-4-secondary
+    );
+    color: transparent;
+  }
+  &__btn-4 {
+    background-image: linear-gradient(
+      to right bottom,
+      $color-card-4-primary,
+      $color-card-4-secondary
+    );
+    color: white;
+  }
+  &__btn-private {
+    background: #777;
+    color: $color-black;
+    cursor: default;
+    &:hover,
+    &:active {
+      transform: translateY(0);
+      box-shadow: none;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
 }

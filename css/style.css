@@ -421,6 +421,9 @@ body {
 .card__side--back-3 {
   background-image: linear-gradient(to right bottom, #fff, #ff0000);
 }
+.card__side--back-4 {
+  background-image: linear-gradient(to right bottom, #f1464e, #df9b0e);
+}
 .card:hover .card__side--front {
   transform: rotateY(-180deg);
 }
@@ -445,6 +448,9 @@ body {
 .card__picture--3 {
   background-image: linear-gradient(to right bottom, #fff, #ff0000), url(../img/fivetube.png);
 }
+.card__picture--4 {
+  background-image: linear-gradient(to right bottom, #f1464e, #df9b0e), url(../img/sekiungama1.png);
+}
 .card__icon {
   width: 20%;
   position: absolute;
@@ -457,6 +463,11 @@ body {
 }
 .card__icon-3 {
   width: 27%;
+  top: 0%;
+  left: 0%;
+}
+.card__icon-4 {
+  width: 20%;
   top: 0%;
   left: 0%;
 }
@@ -486,6 +497,9 @@ body {
 }
 .card__heading-span--3 {
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 0, 0, 0.9));
+}
+.card__heading-span--4 {
+  background-image: linear-gradient(to right bottom, rgba(241, 70, 78, 0.9), rgba(223, 155, 14, 0.9));
 }
 .card__details {
   padding: 1rem 3rem;
@@ -652,6 +666,26 @@ body {
 .popup__btn-3 {
   background-image: linear-gradient(to right bottom, #fff, #ff0000);
   color: white;
+}
+.popup__header-4 {
+  background-image: linear-gradient(to right bottom, #f1464e, #df9b0e);
+  color: transparent;
+}
+.popup__btn-4 {
+  background-image: linear-gradient(to right bottom, #f1464e, #df9b0e);
+  color: white;
+}
+.popup__btn-private {
+  background: #777;
+  color: #000;
+  cursor: default;
+}
+.popup__btn-private:hover, .popup__btn-private:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+.popup__btn-private:focus {
+  outline: none;
 }
 
 .header {

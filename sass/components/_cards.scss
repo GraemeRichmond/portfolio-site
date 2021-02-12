@@ -47,6 +47,13 @@
           $color-card-3-secondary
         );
       }
+      &-4 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-card-4-primary,
+          $color-card-4-secondary
+        );
+      }
     }
   }
 
@@ -91,6 +98,14 @@
         ),
         url(../img/fivetube.png);
     }
+    &--4 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-card-4-primary,
+          $color-card-4-secondary
+        ),
+        url(../img/sekiungama1.png);
+    }
   }
 
   &__icon {
@@ -106,6 +121,12 @@
 
     &-3 {
       width: 27%;
+      top: 0%;
+      left: 0%;
+    }
+
+    &-4 {
+      width: 20%;
       top: 0%;
       left: 0%;
     }
@@ -148,6 +169,13 @@
         to right bottom,
         rgba($color-card-3-primary, 0.9),
         rgba($color-card-3-secondary, 0.9)
+      );
+    }
+    &--4 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-card-4-primary, 0.9),
+        rgba($color-card-4-secondary, 0.9)
       );
     }
   }
