@@ -176,7 +176,7 @@ body {
     transform: translate(0);
   }
 }
-@keyframes bottomIn {
+@keyframes dropIn {
   0% {
     opacity: 0;
     transform: translateY(-5rem);
@@ -294,8 +294,8 @@ body {
   background-color: #fff;
   color: #777;
 }
-.btn--animated {
-  animation: bottomIn 0.75s ease-out 0.5s;
+.btn--drop-in {
+  animation: dropIn 0.75s ease-out 0.5s;
   animation-fill-mode: backwards;
 }
 
