@@ -449,7 +449,7 @@ body {
   background-image: linear-gradient(to right bottom, #fff, #ff0000), url(../img/fivetube.png);
 }
 .card__picture--4 {
-  background-image: linear-gradient(to right bottom, #f1464e, #df9b0e), url(../img/sekiungama1.png);
+  background-image: linear-gradient(to right bottom, #f1464e, #df9b0e), url(../img/sekiungama.png);
 }
 .card__icon {
   width: 20%;
@@ -685,7 +685,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)), url(../img/nebula21.gif);
+  background-image: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)), url(../img/nebula.gif);
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
