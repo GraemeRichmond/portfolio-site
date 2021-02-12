@@ -145,10 +145,16 @@
       -webkit-filter: drop-shadow(1.5px 1.5px 1px #000);
       filter: drop-shadow(1.5px 1.5px 1px #000);
       &-2 {
+        width: 63%;
         position: absolute;
         transform: translateY(-10%);
         left: 40%;
-        width: 63%;
+      }
+      &-4 {
+        position: absolute;
+        transform: translateY(-35%);
+        left: 10%;
+        width: 100%;
       }
     }
   }
