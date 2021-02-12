@@ -763,6 +763,11 @@ body {
   margin: 0 auto;
 }
 @media (max-width: 900px) {
+  .row:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 900px) {
   .row {
     max-width: 50rem;
   }
