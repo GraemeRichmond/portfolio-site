@@ -1,16 +1,20 @@
 .footer {
-  background-color: $color-primary;
-  padding: 2rem 0;
-  font-size: 1.4rem;
+  background-color: $color-grey-light;
 
-  position: relative;
-  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-  padding-top: 0rem;
-  // transform: translateY(-15%);
+  &__container {
+    background-color: $color-primary;
+    padding: 2rem 0;
+    font-size: 1.4rem;
 
-  @include respond(tab-port) {
-    padding: 8rem 0;
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+
+    @include respond(tab-port) {
+      padding: 8rem 0;
+
+      -webkit-clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
+    }
   }
 
   // &__email-box {
