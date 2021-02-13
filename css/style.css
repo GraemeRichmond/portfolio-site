@@ -649,6 +649,11 @@ body {
   visibility: visible;
   width: 100%;
 }
+.popup__vid {
+  display: block;
+  visibility: visible;
+  width: 100%;
+}
 .popup__right {
   width: 30%;
   vertical-align: middle;
