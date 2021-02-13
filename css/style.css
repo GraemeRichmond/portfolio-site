@@ -777,16 +777,16 @@ body {
 }
 @media (max-width: 900px) {
   .scroll-icon {
-    max-height: 7vh;
-    max-width: 7vh;
-    border: 2px #1e73ac solid;
+    max-height: 6vh;
+    max-width: 6vh;
+    border: 3px #1e73ac solid;
     right: 1rem;
-    top: 85vh;
+    top: 86vh;
   }
 }
 .scroll-icon__img {
-  height: 85%;
-  width: 85%;
+  height: 80%;
+  width: 80%;
   transform: translateY(0.3rem);
 }
 

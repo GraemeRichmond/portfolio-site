@@ -9,16 +9,16 @@
   top: 85vh;
 
   @include respond(tab-port) {
-    max-height: 7vh;
-    max-width: 7vh;
-    border: 2px $color-gradient-primary solid;
+    max-height: 6vh;
+    max-width: 6vh;
+    border: 3px $color-gradient-primary solid;
     right: 1rem;
-    top: 85vh;
+    top: 86vh;
   }
 
   &__img {
-    height: 85%;
-    width: 85%;
+    height: 80%;
+    width: 80%;
     transform: translateY(0.3rem);
   }
 }
