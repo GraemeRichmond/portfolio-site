@@ -1,0 +1,24 @@
+.scroll-icon {
+  max-height: 10vh;
+  max-width: 10vh;
+  border: 4px $color-gradient-primary solid;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  right: 4rem;
+  top: 85vh;
+
+  @include respond(tab-port) {
+    max-height: 8vh;
+    max-width: 8vh;
+    border: 3px $color-gradient-primary solid;
+    right: 2rem;
+    top: 87vh;
+  }
+
+  &__img {
+    height: 85%;
+    width: 85%;
+    transform: translateY(0.3rem);
+  }
+}

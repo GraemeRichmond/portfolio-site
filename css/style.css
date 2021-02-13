@@ -765,6 +765,31 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.scroll-icon {
+  max-height: 10vh;
+  max-width: 10vh;
+  border: 4px #1e73ac solid;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  right: 4rem;
+  top: 85vh;
+}
+@media (max-width: 900px) {
+  .scroll-icon {
+    max-height: 8vh;
+    max-width: 8vh;
+    border: 3px #1e73ac solid;
+    right: 2rem;
+    top: 87vh;
+  }
+}
+.scroll-icon__img {
+  height: 85%;
+  width: 85%;
+  transform: translateY(0.3rem);
+}
+
 .section-about {
   background-color: #f7f7f7;
   padding: 20rem 0;
