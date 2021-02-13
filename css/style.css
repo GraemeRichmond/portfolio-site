@@ -858,9 +858,9 @@ body {
   background-color: #f7f7f7;
 }
 .footer__container {
-  background-color: #4c5f9a;
   padding: 2rem 0;
   font-size: 1.4rem;
+  background-image: linear-gradient(to right bottom, rgba(142, 57, 153, 0.75), rgba(30, 115, 172, 0.75)), url(../img/footer.jpg);
   -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
 }

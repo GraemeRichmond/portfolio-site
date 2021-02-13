@@ -2,9 +2,14 @@
   background-color: $color-grey-light;
 
   &__container {
-    background-color: $color-primary;
     padding: 2rem 0;
     font-size: 1.4rem;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-gradient-secondary, 0.75),
+        rgba($color-gradient-primary, 0.75)
+      ),
+      url(../img/footer.jpg);
 
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
