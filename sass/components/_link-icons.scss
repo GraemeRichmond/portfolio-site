@@ -1,0 +1,37 @@
+.link-icon {
+  display: block;
+  position: absolute;
+  border: 2px $color-white solid;
+  color: $color-white;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+  line-height: 3.5em;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.21);
+  }
+
+  &__github {
+    left: calc(50% - 1.5em);
+    animation: popIn 0.75s ease-out 0.75s;
+    animation-fill-mode: backwards;
+
+    &:hover {
+      border: 2px #333 solid;
+      color: #333;
+      background: $color-white;
+    }
+  }
+}
+
+// &__link-icon-box {
+//   // text-align: center;
+//   position: absolute;
+//   top: 60%;
+//   left: 50%;
+//   transform: translate(-50%, 0%);
+//   // height: 90px;
+// }

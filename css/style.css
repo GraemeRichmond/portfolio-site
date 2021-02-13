@@ -189,6 +189,19 @@ body {
     transform: translate(0);
   }
 }
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  80% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
 .floating {
   animation-name: Floating;
   animation-duration: 2.5s;
@@ -297,6 +310,32 @@ body {
 .btn--drop-in {
   animation: dropIn 0.75s ease-out 0.5s;
   animation-fill-mode: backwards;
+}
+
+.link-icon {
+  display: block;
+  position: absolute;
+  border: 2px #fff solid;
+  color: #fff;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+  line-height: 3.5em;
+  transition: all 0.3s;
+}
+.link-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.21);
+}
+.link-icon__github {
+  left: calc(50% - 1.5em);
+  animation: popIn 0.75s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+.link-icon__github:hover {
+  border: 2px #333 solid;
+  color: #333;
+  background: #fff;
 }
 
 .logos {
