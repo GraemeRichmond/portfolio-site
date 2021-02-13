@@ -1,13 +1,16 @@
 .link-icon {
-  display: block;
-  position: absolute;
-  // border: 2px $color-white solid;
-  color: $color-white;
-  border-radius: 50%;
-  height: 3em;
-  width: 3em;
-  line-height: 3.5em;
-  transition: all 0.3s;
+  &:link,
+  &:visited {
+    display: block;
+    position: absolute;
+    // border: 2px $color-white solid;
+    color: $color-white;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    line-height: 3.5em;
+    transition: all 0.3s;
+  }
 
   &:hover {
     transform: scale(1.1);
