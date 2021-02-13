@@ -312,7 +312,7 @@ body {
   animation-fill-mode: backwards;
 }
 
-.link-icon {
+.link-icon:link, .link-icon:visited {
   display: block;
   position: absolute;
   color: #fff;
