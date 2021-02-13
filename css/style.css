@@ -777,11 +777,11 @@ body {
 }
 @media (max-width: 900px) {
   .scroll-icon {
-    max-height: 8vh;
-    max-width: 8vh;
-    border: 3px #1e73ac solid;
-    right: 2rem;
-    top: 87vh;
+    max-height: 7vh;
+    max-width: 7vh;
+    border: 2px #1e73ac solid;
+    right: 1rem;
+    top: 85vh;
   }
 }
 .scroll-icon__img {
