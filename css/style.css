@@ -855,9 +855,13 @@ body {
 }
 
 .footer {
+  position: relative;
   background-color: #4c5f9a;
   padding: 2rem 0;
   font-size: 1.4rem;
+  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  padding-top: 0rem;
 }
 @media (max-width: 900px) {
   .footer {

@@ -3,6 +3,12 @@
   padding: 2rem 0;
   font-size: 1.4rem;
 
+  position: relative;
+  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  padding-top: 0rem;
+  // transform: translateY(-15%);
+
   @include respond(tab-port) {
     padding: 8rem 0;
   }
