@@ -3,7 +3,7 @@ $(".smooth-goto").on("click", function () {
     {
       scrollTop: $(this.hash).offset().top + 266,
     },
-    1000
+    1500
   );
 });
 
@@ -12,7 +12,7 @@ $(".goto-top").on("click", function () {
     {
       scrollTop: $(this.hash).offset().top - 30,
     },
-    1000
+    1500
   );
 });
 
@@ -21,7 +21,7 @@ $(".goto-about").on("click", function () {
     {
       scrollTop: $(this.hash).offset().top + 190,
     },
-    1000
+    1200
   );
 });
 
