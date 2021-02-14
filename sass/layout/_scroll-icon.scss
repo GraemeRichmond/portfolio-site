@@ -1,7 +1,11 @@
 .scroll-icon {
-  max-height: 10vh;
-  max-width: 10vh;
-  border: 4px $color-gradient-primary solid;
+  // max-height: 10vh;
+  // max-width: 10vh;
+  height: 5em;
+  width: 5em;
+  // border: 5px $color-primary solid;
+  // border: 5px $color-secondary solid;
+  border: 5px $color-gradient-primary solid;
   border-radius: 50%;
   position: absolute;
   text-align: center;
@@ -9,16 +13,34 @@
   top: 85vh;
 
   @include respond(tab-port) {
-    max-height: 6vh;
-    max-width: 6vh;
+    max-height: 4em;
+    max-width: 4em;
+    // border: 3px $color-primary solid;
+    // border: 3px $color-secondary solid;
     border: 3px $color-gradient-primary solid;
-    right: 1rem;
-    top: 86vh;
+
+    right: 2rem;
+    top: 87vh;
   }
 
-  &__img {
+  // &__img {
+  //   height: 80%;
+  //   width: 80%;
+  //   transform: translateY(0.3rem);
+  // }
+
+  &__arrow {
     height: 80%;
     width: 80%;
-    transform: translateY(0.3rem);
+    // color: $color-primary;
+    // color: $color-secondary;
+    // color: $color-gradient-primary;
+    color: $color-gradient-secondary;
+    // transform: translateY(3rem);
+    line-height: 7rem;
+
+    @include respond(tab-port) {
+      line-height: 6rem;
+    }
   }
 }
