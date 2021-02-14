@@ -16,6 +16,15 @@ $(".goto-top").on("click", function () {
   );
 });
 
+$(".goto-about").on("click", function () {
+  $("html, body").animate(
+    {
+      scrollTop: $(this.hash).offset().top + 190,
+    },
+    1000
+  );
+});
+
 // $(document).ready(function(){
 //     $('.popup__img').css('visibility', 'visible');
 // })
