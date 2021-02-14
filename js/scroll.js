@@ -21,7 +21,7 @@ $(".goto-about").on("click", function () {
     {
       scrollTop: $(this.hash).offset().top + 190,
     },
-    1200
+    1100
   );
 });
 
