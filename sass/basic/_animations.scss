@@ -26,6 +26,20 @@
   }
 }
 
+@keyframes rightOut {
+  0% {
+    opacity: 1;
+    transform: translate(0);
+  }
+  20% {
+    transform: translateX(-0.5rem);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(5rem);
+  }
+}
+
 @keyframes dropIn {
   0% {
     opacity: 0;

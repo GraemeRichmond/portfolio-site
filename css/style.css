@@ -177,6 +177,19 @@ body {
     transform: translate(0);
   }
 }
+@keyframes rightOut {
+  0% {
+    opacity: 1;
+    transform: translate(0);
+  }
+  20% {
+    transform: translateX(-0.5rem);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(5rem);
+  }
+}
 @keyframes dropIn {
   0% {
     opacity: 0;
@@ -882,6 +895,10 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#a-scroll-icon {
+  transition: all 1s ease-in-out 1s;
 }
 
 .scroll-icon {
