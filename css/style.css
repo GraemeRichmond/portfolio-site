@@ -33,6 +33,7 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem;
+  overflow-x: hidden;
 }
 @media (max-width: 900px) {
   body {
@@ -277,14 +278,17 @@ body {
 .pointingDown {
   animation-name: PointingDown;
   animation-duration: 2s;
+  animation-delay: 1.75s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   -webkit-animation-name: PointingDown1;
   -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1.75s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
   -moz-animation-name: PointingDown2;
   -moz-animation-duration: 2s;
+  -moz-animation-delay: 1.75s;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: ease-in-out;
 }
@@ -889,6 +893,8 @@ body {
   text-align: center;
   right: 4rem;
   top: 85vh;
+  animation: rightIn 0.75s ease-out 1.75s;
+  animation-fill-mode: backwards;
 }
 @media (max-width: 900px) {
   .scroll-icon {

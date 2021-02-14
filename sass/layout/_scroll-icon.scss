@@ -11,6 +11,8 @@
   text-align: center;
   right: 4rem;
   top: 85vh;
+  animation: rightIn 0.75s ease-out 1.75s;
+  animation-fill-mode: backwards;
 
   @include respond(tab-port) {
     max-height: 4em;
