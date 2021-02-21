@@ -898,7 +898,7 @@ body {
 }
 
 #a-scroll-icon {
-  transition: all 1s ease-in-out 1s;
+  transition: opacity 1s ease-in-out 1s;
 }
 
 .scroll-icon {
@@ -906,7 +906,8 @@ body {
   width: 5em;
   border: 5px #1e73ac solid;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
+  z-index: 10;
   text-align: center;
   right: 4rem;
   top: 85vh;

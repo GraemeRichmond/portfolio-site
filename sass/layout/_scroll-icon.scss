@@ -1,31 +1,14 @@
 #a-scroll-icon {
-  // transition: opacity 1s ease-in-out 1s;
-  // transition: display 1s ease-in-out 0s;
-  transition: all 1s ease-in-out 1s;
+  transition: opacity 1s ease-in-out 1s;
 }
-
-// .visible {
-// opacity: 1;
-// display: initial;
-// visibility: visible;
-// animation: rightIn 0.75s ease-out;
-// transform: scale(1);
-// }
-
-// .invisible {
-// opacity: 0;
-// display: none;
-// visibility: hidden;
-// animation: rightOut 0.75s ease-out;
-// transform: scale(0);
-// }
 
 .scroll-icon {
   height: 5em;
   width: 5em;
   border: 5px $color-gradient-primary solid;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
+  z-index: 10;
   text-align: center;
   right: 4rem;
   top: 85vh;

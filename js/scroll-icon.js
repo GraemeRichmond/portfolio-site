@@ -2,13 +2,15 @@ let y = window.scrollY;
 let e = document.getElementById("a-scroll-icon");
 
 function showScrollIcon() {
-  e.className = "goto-about visible";
-  return console.log(e.className);
+  e.style.opacity = 1;
+  e.href = "#about";
+  e.style.cursor = "pointer";
 }
 
 function hideScrollIcon() {
-  e.className = "goto-about invisible";
-  return console.log(e.className);
+  e.style.opacity = 0;
+  e.href = "javascript:void(0)";
+  e.style.cursor = "default";
 }
 
 window.addEventListener("load", function () {
