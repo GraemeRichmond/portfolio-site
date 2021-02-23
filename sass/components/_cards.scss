@@ -22,7 +22,6 @@
 
     &--front {
       background-color: $color-white;
-      transform-style: preserve-3d;
     }
     &--back {
       transform: rotateY(180deg);
@@ -163,7 +162,7 @@
   &__dt-img {
     position: absolute;
     bottom: 0;
-    transform: rotateY(15deg) translateX(5%);
+    transform: translateX(5%);
     height: 35%;
     -webkit-filter: drop-shadow(1.5px 1.5px 1px #000);
     filter: drop-shadow(1.5px 1.5px 1px #000);
