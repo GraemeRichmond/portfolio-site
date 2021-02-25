@@ -99,7 +99,7 @@ body {
   src: url(/fonts/NotoSansJP-Regular.otf);
 }
 body {
-  font-family: Noto-Sans-JP, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
