@@ -25,4 +25,11 @@
     animation: dropIn 0.75s ease-out 0.5s;
     animation-fill-mode: backwards;
   }
+  &--demo {
+    &:link,
+    &:visited {
+      padding: 0.5rem 2rem;
+      margin-bottom: 0.5rem;
+    }
+  }
 }

@@ -447,6 +447,10 @@ body {
   animation: dropIn 0.75s ease-out 0.5s;
   animation-fill-mode: backwards;
 }
+.btn--demo:link, .btn--demo:visited {
+  padding: 0.5rem 2rem;
+  margin-bottom: 0.5rem;
+}
 
 .link-icon {
   display: block;
@@ -828,6 +832,10 @@ body {
   background-image: linear-gradient(to right bottom, skyblue, violet);
   color: white;
 }
+.popup__btn-1:link, .popup__btn-1:visited {
+  padding: 0.5rem 2rem;
+  margin-bottom: 0.5rem;
+}
 .popup__header-2 {
   background-image: linear-gradient(to right bottom, #6369b5, #f0b5e6);
   color: transparent;
@@ -835,6 +843,10 @@ body {
 .popup__btn-2 {
   background-image: linear-gradient(to right bottom, #6369b5, #f0b5e6);
   color: white;
+}
+.popup__btn-2:link, .popup__btn-2:visited {
+  padding: 0.5rem 2rem;
+  margin-bottom: 0.5rem;
 }
 .popup__header-3 {
   background-image: linear-gradient(to right bottom, #fff, #ff0000);
@@ -852,6 +864,10 @@ body {
   background-image: linear-gradient(to right bottom, #f1464e, #df9b0e);
   color: white;
 }
+.popup__btn-4:link, .popup__btn-4:visited {
+  padding: 0.5rem 2rem;
+  margin-bottom: 0.5rem;
+}
 .popup__btn-private {
   background: #777;
   color: #000;
@@ -860,6 +876,10 @@ body {
 .popup__btn-private:hover, .popup__btn-private:active {
   transform: translateY(0);
   box-shadow: none;
+}
+.popup__btn-private:link, .popup__btn-private:visited {
+  padding: 0.5rem 2rem;
+  margin-bottom: 0.5rem;
 }
 .popup__btn-private:focus {
   outline: none;

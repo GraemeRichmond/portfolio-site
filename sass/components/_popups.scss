@@ -98,6 +98,11 @@
       $color-card-1-secondary
     );
     color: white;
+    &:link,
+    &:visited {
+      padding: 0.5rem 2rem;
+      margin-bottom: 0.5rem;
+    }
   }
 
   &__header-2 {
@@ -115,6 +120,11 @@
       $color-card-2-secondary
     );
     color: white;
+    &:link,
+    &:visited {
+      padding: 0.5rem 2rem;
+      margin-bottom: 0.5rem;
+    }
   }
   &__header-3 {
     background-image: linear-gradient(
@@ -147,6 +157,11 @@
       $color-card-4-secondary
     );
     color: white;
+    &:link,
+    &:visited {
+      padding: 0.5rem 2rem;
+      margin-bottom: 0.5rem;
+    }
   }
   &__btn-private {
     background: #777;
@@ -156,6 +171,11 @@
     &:active {
       transform: translateY(0);
       box-shadow: none;
+    }
+    &:link,
+    &:visited {
+      padding: 0.5rem 2rem;
+      margin-bottom: 0.5rem;
     }
     &:focus {
       outline: none;
